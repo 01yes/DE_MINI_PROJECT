@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: Customer_tr
+    description: customer table
+    columns:
+      - name: CUSTOMER_ID
+        description: Unique identifier for the customer
+        tests:
+          - unique
+          - not_null
+      - name: COMPANY
+        description:  name of the COMPANY
+      - name: CUSTOMER NAME
+        description: name of the customer
+       

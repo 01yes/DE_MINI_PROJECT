@@ -1,0 +1,18 @@
+version: 2
+
+sources:
+  - name: Portal
+    database: JOB_PORTAL_TRANFORMATION_DB
+    schema: JOB_PORTAL_TRANFORMATION_SCHEMA
+    tables:
+      - name: CUSTOMERS
+        description: "Table containing information about customers, including the business they utilise and the customer names
+      
+      - name: PRODUCT
+        description: "Table containing information about,product subfamilies and families"
+      
+      - name: COUNTRY_AND_REGION
+        description: "Table containing information customer_id,country and their regions"
+
+      - name: TRANSACTIONS
+        description: "Table containing  detail information on the product,customer,revenue,dates and dimensions"

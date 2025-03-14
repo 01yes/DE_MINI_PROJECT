@@ -1,0 +1,49 @@
+[0m09:21:16.775444 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE0BEE7E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE0BED730>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE0BEC140>]}
+
+
+============================== 09:21:16.786446 | 8bdda760-7fa6-4814-ae1e-17d219f28fa6 ==============================
+[0m09:21:16.786446 [info ] [MainThread]: Running with dbt=1.9.3
+[0m09:21:16.787444 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AbdulRahmanMA\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt init', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m09:24:46.036269 [debug] [MainThread]: Starter project path: C:\Users\AbdulRahmanMA\Desktop\Dbt_JobPortal\venv\Lib\site-packages\dbt\include\starter_project
+[0m09:24:46.081814 [info ] [MainThread]: 
+Your new dbt project "Job_Portal_Transformation" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m09:24:46.082814 [info ] [MainThread]: Setting up your profile.
+[0m09:26:50.854997 [info ] [MainThread]: Profile Job_Portal_Transformation written to C:\Users\AbdulRahmanMA\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m09:26:50.857955 [debug] [MainThread]: Command `dbt init` succeeded at 09:26:50.856958 after 334.29 seconds
+[0m09:26:50.858993 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE04970B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE0DABF80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021FE14BBEF0>]}
+[0m09:26:50.858993 [debug] [MainThread]: Flushing usage events
+[0m09:26:51.854853 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m09:27:03.626971 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F17C91940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F17C92DB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F17C921E0>]}
+
+
+============================== 09:27:03.633959 | fb96bed6-205f-44be-a8a7-a9e666ff64a9 ==============================
+[0m09:27:03.633959 [info ] [MainThread]: Running with dbt=1.9.3
+[0m09:27:03.634605 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\AbdulRahmanMA\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m09:27:03.664251 [info ] [MainThread]: dbt version: 1.9.3
+[0m09:27:03.665274 [info ] [MainThread]: python version: 3.12.9
+[0m09:27:03.666251 [info ] [MainThread]: python path: C:\Users\AbdulRahmanMA\Desktop\Dbt_JobPortal\venv\Scripts\python.exe
+[0m09:27:03.667249 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m09:27:04.063900 [info ] [MainThread]: Using profiles dir at C:\Users\AbdulRahmanMA\.dbt
+[0m09:27:04.065943 [info ] [MainThread]: Using profiles.yml file at C:\Users\AbdulRahmanMA\.dbt\profiles.yml
+[0m09:27:04.066604 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\AbdulRahmanMA\Desktop\Dbt_JobPortal\dbt_project.yml
+[0m09:27:04.067611 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m09:27:04.068612 [debug] [MainThread]: Command `dbt debug` failed at 09:27:04.068612 after 0.80 seconds
+[0m09:27:04.068612 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F1757EA80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F11C09F40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027F18883EF0>]}
+[0m09:27:04.069636 [debug] [MainThread]: Flushing usage events
+[0m09:27:05.086272 [debug] [MainThread]: An error was encountered while trying to flush usage events
