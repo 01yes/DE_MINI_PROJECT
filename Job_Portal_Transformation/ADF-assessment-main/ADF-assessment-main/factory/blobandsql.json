@@ -1,0 +1,9 @@
+{
+	"name": "blobandsql",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f2141078-b373-4515-a376-7e8289c39b96",
+		"tenantId": "2800c0a0-70e9-49be-8733-faeaa6aced99"
+	}
+}

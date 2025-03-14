@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SQLSCHEMA",
+			"table": "RETAILTABLE"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

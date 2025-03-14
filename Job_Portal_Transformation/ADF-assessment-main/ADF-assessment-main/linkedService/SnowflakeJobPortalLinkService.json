@@ -1,0 +1,21 @@
+{
+	"name": "SnowflakeJobPortalLinkService",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SnowflakeV2",
+		"typeProperties": {
+			"authenticationType": "Basic",
+			"accountIdentifier": "TAYKPET-TG29606",
+			"user": "ARSHAD",
+			"database": "JOB_PORTAL_TRANFORMATION_DB",
+			"warehouse": "COMPUTE_WH",
+			"role": "ACCOUNTADMIN",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI5NDM1ZmY1OC0wMTkzLTQ3YWEtOGU1Zi1mMWE2NzY5NmYzYTUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "jobportalintruntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

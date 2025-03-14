@@ -1,0 +1,19 @@
+{
+	"name": "CustomerRestService1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "RestService",
+		"typeProperties": {
+			"url": " https://jsonplaceholder.typicode.com/users",
+			"enableServerCertificateValidation": true,
+			"authenticationType": "Basic",
+			"userName": "Rest",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDRDMjJDOTk4LUNGQkEtNEVBNS1BMDQ2LTI5NjBGN0ZGMTIyN19lYzc1N2EzMS05M2YwLTQ4MmQtYWY2YS0wYzg3YzBiN2I0MDEiDQp9"
+		},
+		"connectVia": {
+			"referenceName": "AutoResolveIntegrationRuntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

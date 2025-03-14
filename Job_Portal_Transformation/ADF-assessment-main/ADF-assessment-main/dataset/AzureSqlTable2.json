@@ -1,0 +1,38 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlservice",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"new": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Prop_0",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Prop_1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Prop_2",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "SQLSCHEMA",
+			"table": {
+				"value": "@dataset().new",
+				"type": "Expression"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

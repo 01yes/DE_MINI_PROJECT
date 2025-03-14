@@ -1,0 +1,21 @@
+{
+	"name": "Job_portal_link",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"server": "JM-DKT-033",
+			"database": "db assessment",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "Windows",
+			"userName": "AzureAD\\AbdulRahmanMA",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIyNzYwZGQwZS0xOTIwLTRjYTUtODk5Ni01NWQ4MGM2YjQ3OWYiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "jobportalintruntime",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}

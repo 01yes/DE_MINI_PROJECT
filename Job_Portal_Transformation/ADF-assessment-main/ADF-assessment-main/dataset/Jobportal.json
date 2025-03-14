@@ -1,0 +1,16 @@
+{
+	"name": "Jobportal",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "joblinkservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Dateset - Country Region"
+		}
+	}
+}

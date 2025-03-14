@@ -1,0 +1,22 @@
+{
+	"name": "SQLforall",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqlservice",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"count": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "SQLSCHEMA",
+			"table": "RETAILTABLE"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

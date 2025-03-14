@@ -1,0 +1,9 @@
+{
+	"name": "jobportalintruntime",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"selfContainedInteractiveAuthoringEnabled": true
+		}
+	}
+}

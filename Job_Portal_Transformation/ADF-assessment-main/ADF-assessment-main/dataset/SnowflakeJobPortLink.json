@@ -1,0 +1,35 @@
+{
+	"name": "SnowflakeJobPortLink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SnowflakeJobPortalLinkService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SnowflakeV2Table",
+		"schema": [
+			{
+				"name": "CUSTOMER_ID",
+				"type": "NUMBER",
+				"precision": 38,
+				"scale": 0
+			},
+			{
+				"name": "COUNTRY",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "LASTNAME",
+				"type": "VARCHAR"
+			},
+			{
+				"name": "REGION",
+				"type": "VARCHAR"
+			}
+		],
+		"typeProperties": {
+			"schema": "JOB_PORTAL_TRANFORMATION_SCHEMA",
+			"table": "COUNTRY_REGION"
+		}
+	}
+}

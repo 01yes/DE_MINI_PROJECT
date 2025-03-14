@@ -1,0 +1,21 @@
+{
+	"name": "Excel1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "blobservice",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Excel",
+		"typeProperties": {
+			"sheetName": "Stores",
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "retail_sales_dataset.xlsx",
+				"container": "containforblob"
+			}
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

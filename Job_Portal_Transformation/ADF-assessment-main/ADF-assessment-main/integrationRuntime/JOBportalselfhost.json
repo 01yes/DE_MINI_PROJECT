@@ -1,0 +1,9 @@
+{
+	"name": "JOBportalselfhost",
+	"properties": {
+		"type": "SelfHosted",
+		"typeProperties": {
+			"selfContainedInteractiveAuthoringEnabled": false
+		}
+	}
+}
